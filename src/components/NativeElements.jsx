@@ -28,7 +28,6 @@ const NativeElements = () => {
       }
       centerComponent={{ text: 'Header', style: styles.heading }}
     />
-            <Text>COUCOU</Text>
         <Card >
         <Card.Title>CARD WITH DIVIDER</Card.Title>
         <Card.Divider/>
