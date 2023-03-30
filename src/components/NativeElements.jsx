@@ -4,6 +4,7 @@ import { Card, Header as HeaderRNE, HeaderProps, Icon } from '@rneui/themed';
 import { Skeleton } from '@rneui/base';
 // import { Header } from '@rneui/themed';
 import LinearGradient from 'react-native-linear-gradient';
+import AnimatedComponent from './AnimatedComponent';
 
 
 const NativeElements = () => {
@@ -20,9 +21,10 @@ const NativeElements = () => {
               <Icon name="description" color="white" />
             </TouchableOpacity>
             <TouchableOpacity
-              style={{ marginLeft: 10 }}
+              style={{ marginLeft: 10, width: 10, height: 10, }}
             >
-              <Icon type="antdesign" name="rocket1" color="white" />
+              {/* <Icon type="antdesign" name="rocket1" color="white" /> */}
+              <AnimatedComponent/>
             </TouchableOpacity>
           </View>
       }

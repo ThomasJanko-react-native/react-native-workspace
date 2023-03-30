@@ -7,7 +7,7 @@ const AnimatedComponent = () => {
     return (
       <View style={styles.container}>
         <LottieView
-          source={require('./animation.json')}
+          source={require('./react.animation.json')}
           autoPlay={true}
           loop={true}
           style={styles.animation}
@@ -27,8 +27,8 @@ const AnimatedComponent = () => {
       // backgroundColor: '#F5FCFF',
     },
     animation: {
-      width: 300,
-      height: 200,
+      width: 40,
+      height: 40,
     },
   });
   
